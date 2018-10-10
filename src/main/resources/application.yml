@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driveClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bdpesca
+    username: root
+    password: prosor
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
